@@ -1,6 +1,10 @@
 {% extends 'base.html'%}
 
 {% block content%}
+    <div align=center>
+        
+        <button><a href="{% url 'snack_create'%}">Create new snack</a></button>
+    </div>
     {% for snack in Snacks %}
        <div  align=center>
 
